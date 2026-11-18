@@ -1,0 +1,26 @@
+# Ambientes virtuais e Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Variáveis de ambiente e chaves
+.env
+*.pem
+*.key
+
+# Dados locais e artefatos pesados de ML
+data/raw/*
+!data/raw/.gitkeep
+data/*.db
+data/*.sqlite
+artifacts/*.joblib
+artifacts/*.pkl
+
+# Notebooks e IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
